@@ -1,10 +1,8 @@
 <h1>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Pre-Selenium: Dynamic Content with JavaScript</span>
   <span class="subhead">References</span>
 </h1>
 
 ## Lesson references
 
-- [tktk descriptive name of link](https://generalassemb.ly/tktk)
-- [tktk descriptive name of link](https://generalassemb.ly/tktk)
-- [tktk descriptive name of link](https://generalassemb.ly/tktk)
+- [Asynchronous JS - MDN](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Async_JS/Introducing)

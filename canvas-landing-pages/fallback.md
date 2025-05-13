@@ -1,26 +1,20 @@
 <!-- ! Do not delete or rename this file! -->
 <h1>
   <span class="prefix"></span>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Pre-Selenium: Dynamic Content with JavaScript</span>
 </h1>
 
-tktk Add some default course navigation content here. This landing page will be used when a student's course cannot be determined, so don't include any course-specific details.
+## About
+
+This module introduces the concept of dynamic content in web pages—elements that load or update asynchronously after the initial page load. These changes are typically driven by JavaScript and include things like AJAX responses, loading spinners, injected search results, and pop-up alerts. Learners will explore why such behaviors can lead to flaky or failing tests if Selenium tries to interact with elements before they’re ready. The focus is not on writing JavaScript, but on recognizing these patterns in the browser and understanding how they affect test timing and automation strategies.
 
 ## Content
 
-| Lesson | Est. Delivery Time | Skills |
-| ------ |:------------------:| ------ |
-| [Setup](../setup/README.md)                          | -- | Set up the development environment. |
-| [Concepts](../concepts/README.md)                    | -- | tktk Skills covered.                |
-| [tktk Microlesson Name](../microlesson-01/README.md) | -- | tktk Skills covered.                |
-| **Total content**                                    | -- |                                     |
-
-## Level Up content
-
-| Lesson | Est. Delivery Time | Skills |
-| ------ |:------------------:| ------ |
-| [tktk Microlesson Name](../microlesson-02/README.md) | -- | tktk Skills covered. |
-| **Total Level Up content**                           | -- |                      |
+| Lesson                                                                                                    | Est. Delivery Time | Skills                                                                                                              |
+| --------------------------------------------------------------------------------------------------------- | :----------------: | ------------------------------------------------------------------------------------------------------------------- |
+| [Dynamic Content and Its Impact on Automation](../dynamic-content-and-its-impact-on-automation/README.md) |       10 min       | Explain why automation tools like Selenium sometimes fail when content isn't fully loaded.                          |
+| [Asynchronous Content Loading Patterns](../asynchronous-content-loading-patterns/README.md)               |       10 min       | Identify real-world examples of asynchronously loaded content (such as search results, modals, or API-driven data). |
+| **Total content**                                                                                         |       20 min       |                                                                                                                     |
 
 ## References
 
